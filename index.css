@@ -68,6 +68,7 @@ header nav ul li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .nav-mobile ul{
@@ -80,7 +81,7 @@ header nav ul li a{
 .open{
     width: 100%;
     transition: all 0.3s ease-in-out;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 header ul li::after{
