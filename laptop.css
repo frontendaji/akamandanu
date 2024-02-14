@@ -1,0 +1,35 @@
+@media screen and (min-width:768px) and (max-width:1024px) {
+    main{
+        padding: 6rem;
+    }
+
+    main .hero{
+        flex-direction: column-reverse;
+        gap: 3rem;
+        padding: 10rem 0;
+    }
+
+    .hero-img img{
+        max-width: 13rem;
+    }
+
+    section{
+        flex-direction: column;
+        padding: 5rem 0;
+        gap: 3rem;
+    }
+
+    .expertise-img img{
+        max-width: 10rem;
+    }
+
+    .contact{
+        flex-direction: column;
+        padding: 5rem 0;
+        gap: 4rem;
+    }
+
+    .right-contact form input{
+        width: 100%;
+    }
+}

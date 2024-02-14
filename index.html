@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="laptop.css">
+    <script src="index.js" defer></script>
+    <title>A Kamandanu</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>A Kamandanu</h1>
+        </div>
+        <nav class="nav-dekstop">
+            <ul>
+                <li><a href="/">Introduction</a></li>
+                <li><a href="/expertise.html">Expertise</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/project.html">Project</a></li>
+            </ul>
+        </nav>
+        <div class="btn-action">
+            <button>Team Up</button>
+        </div>
+        <div class="menu" onclick="toggleMobileNav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-mobile">
+            <div class="menu" onclick="toggleMobileNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li onclick="closeMobileNav()"><a href="/">Introduction</a></li>
+                <li onclick="closeMobileNav()"><a href="/expertise.html">Expertise</a></li>
+                <li onclick="closeMobileNav()"><a href="/contact.html">Contact</a></li>
+                <li onclick="closeMobileNav()"><a href="/project.html">Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Hi there, I'm Aji</h1>
+                <p>I'm deeply passionate about frontend development. I'm constantly excited about expanding my knowledge and honing my skills in this field.</p>
+                <div class="btn-action">
+                    <button>Team Up</button>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="/assets/images/avatar-aji.png" alt="ajisakakamandanu">
+                <span></span>
+            </div>
+        </div>
+        <section>
+            <div class="expertise-img">
+                <img src="assets/images/expertise-aji.png" alt="expertise-aji">
+                <span></span>
+            </div>
+            <div class="expertise">
+                <h1>Expertise.</h1>
+                <p>With a focus on frontend development, I specialize in creating visually stunning and user-friendly interfaces.</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>tailwind</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="contact">
+                <div class="left-contact">
+                    <h1>I can't wait to receive your invitation to collaborate!</h1>
+                    <p>I'm all set and eager to team up with you! I'll make sure to get back to you within 24 hours. </p>
+
+                    <div class="donation">
+                        <h2>Contribute to My Work</h2>
+                        <p>Feel free to make a contribution by donating to support my endeavors. Your generosity means a lot and helps me continue doing what I love!</p>
+                        <div class="btn-action">
+                            <button>Donation & Support</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-contact">
+                    <form>
+                        <label for="fname">Name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="femail">Email:</label>
+                        <input type="email" id="femail" name="femail">
+                        <label for="fmessage">Message:</label>
+                        <textarea id="fmessage" name="fmessage" rows="4"></textarea>
+                        <div class="btn-action">
+                            <button>Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Akamandanu All Right Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+@media screen and (min-width:576px) and (max-width:768px) {
+
+    header{
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+
+    header .logo h1{
+        font-size: 1em;
+    }
+
+    .nav-dekstop{
+        display: none;
+    }
+
+    header .btn-action button{
+        display: none;
+    }
+
+    header .menu{
+        display: flex;
+    }
+
+    /* hero */
+
+    main{
+        padding: 0 3rem;
+    }
+
+    main .hero{
+        flex-direction: column-reverse;
+        gap: 3rem;
+        padding: 6rem 0;
+    }
+
+    .hero-img img{
+        max-width: 15rem;
+    }
+
+    /* section */
+
+    section{
+        flex-direction: column;
+        padding: 2rem 0;
+        gap: 3rem;
+    }
+
+    /* expertise */
+
+    .expertise-img img{
+        max-width: 10rem;
+    }
+
+    /* contact */
+
+    .contact{
+        flex-direction: column;
+        padding: 4rem 0;
+        gap: 4rem;
+    }
+
+    .left-contact .donation{
+        position: static;
+    }
+
+    .left-contact p{
+        margin: 1rem 0 3rem 0;
+    }
+
+    .right-contact form input{
+        width: 100%;
+    }
+}
